@@ -51,7 +51,9 @@ a:hover {
 .first_box {
     background-color: #86A789;
     padding: 15px;
-    margin-top: 0;
+    margin: 0 10% 0 10%;
+    width: auto;
+ /*   box-align: center;  --> FLEXBOX!!! */
 }
 
 fieldset {
@@ -59,4 +61,43 @@ fieldset {
 /*    cursor: pointer; */
     padding: 5px;
     margin: 10px;
+}
+
+iframe {
+    display:block;
+    margin: 0 10% 0 30%;
+
+    box
+
+}
+
+.box1 {
+    margin-left: 200px;
+    background-color: red;
+    width:150px;
+    height: 20px;
+    border: solid 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: white;
+    width:150px;
+    height: 20px;
+    border: solid 2px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 378px;
+}
+
+.box3 {
+    margin-left: 552px;
+    background-color: green;
+    width:150px;
+    height: 20px;
+    border: solid 6px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;;
 }
