@@ -66,15 +66,13 @@ fieldset {
 iframe {
     display:block;
     margin: 0 10% 0 30%;
-
-    box
-
 }
 
 .box1 {
     margin-left: 200px;
     background-color: red;
     width:150px;
+     
     height: 20px;
     border: solid 4px;
     text-align: center;
@@ -101,3 +99,18 @@ iframe {
     padding: 10px;
     margin-bottom: 20px;;
 }
+/*
+span {
+    width: 115px;
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+.none {
+    display: none;
+    visibility: hidden;
+}
+*/
