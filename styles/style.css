@@ -5,6 +5,7 @@ html {
 body {
     background-color: #D2E3C8;
     margin: 0;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -65,18 +66,26 @@ fieldset {
 
 iframe {
     display:block;
-    margin: 0 10% 0 30%;
+    margin: 0 auto 0 auto;
+}
+
+.boxes{
+    margin: 0 auto 0 auto;
+    background-color: gray;
+    width: 560px;
+    
 }
 
 .box1 {
-    margin-left: 200px;
     background-color: red;
     width:150px;
-     
     height: 20px;
-    border: solid 4px;
+    border: solid 2px;
     text-align: center;
     padding: 10px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 174px;
 }
 
 .box2 {
@@ -86,18 +95,20 @@ iframe {
     border: solid 2px;
     text-align: center;
     padding: 10px;
-    margin-left: 378px;
+    margin: 0 auto 0 auto;
+    position: relative;
 }
 
 .box3 {
-    margin-left: 552px;
     background-color: green;
     width:150px;
     height: 20px;
-    border: solid 6px;
+    border: solid 2px;
     text-align: center;
     padding: 10px;
-    margin-bottom: 20px;;
+    margin: 0 auto 0 auto;
+    position: relative;
+    left: 174px;
 }
 /*
 span {
@@ -114,3 +125,21 @@ p {
     visibility: hidden;
 }
 */
+
+table {
+    margin: 0 auto 0 auto;
+}
+
+.blackbox{
+    margin: auto;
+    background-color: black;
+    width: 560px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-white {
+    color: white;
+ }
